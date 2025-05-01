@@ -27,15 +27,30 @@ p {
 }
 
 body{
-    background-color: peachpuff;
-    padding: 10px 20px;
+    background-image: src="3a5fd911841ee7a5afd0501035395793.jpg"
 }
+
+/* ------------ IMAGE SECTION ------------- */
 
 #john_doe_ph{
     width: 350px;
     height:350px;
+    display: block;
+    margin: auto;
+    width: auto;
+    width: 28%;
+    height: 28%
 } 
 
+img{
+    border-radius: 60%
+}
+
+
+
+/* ------------ IMAGE SECTION END------------- */
+
+/* ------------- TABLE SECTION ---------------- */
 table{
     border: 1px solid black;
     border-collapse: collapse;
@@ -72,5 +87,7 @@ th{
     margin:50%;
     padding: 100%;
 }
+
+/* ------------- TABLE SECTION END   ---------------- */
 
 
