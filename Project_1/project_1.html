@@ -7,7 +7,7 @@
     <body>
         <div class="container" name="background>">
             <!-- TITLE SECTION -->
-            <div>
+            <div class="profile_box">
                 <h1>Profile Card</h1>
                 <img src="john-doe.jpg" id="john_doe_ph"/>
             </div>
@@ -15,29 +15,41 @@
 
             <!-- DESCRIPTION SECTION -->
             <h2>John Doe</h2>
-            <h3>Software Engineer</h3>
+            <h2>Software Engineer</h2>
             <p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rhoncus a erat vitae maximus. Phasellus pellentesque accumsan erat eget accumsan. Aenean eget placerat lorem. Suspendisse vitae dictum nisl. Curabitur cursus libero ornare tellus mattis, nec vehicula nunc ullamcorper. Mauris ut bibendum urna. Vestibulum in dui justo. Morbi ultrices vitae purus et mattis.</i></p>    </body>
-            <h3>Email:</h3>
+            <h2>Email:</h2>
             <p>john.doe@example.com</p>
-            <h3>Phone:</h3>
+            <h2>Phone:</h2>
             <p>+124094821412</p>
-            <h3>Location:</h3>
+            <h2>Location:</h2>
             <p>New Land, SomewheMMre in the world</p>
             <h3>
-            <h3>Skills:</h3>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Python</li>
-                <li>Java</li>
-            </ul>
-            <h3>Social Media:</h3>
-            <ol>
-                <li><a href='https://www.instagram.com/cristiano/?hl=uk'>Instagram</a></li>
-                <li><a href='https://www.facebook.com/zelenskyy.official/?locale=uk_UA'>facebook</a></li>
-                <li><a href='https://github.com/mark-zuckerberg'>GitHub</a></li>
-            </ol>
+
+            <!-- Skills Section -->
+            <div class="skills">
+                <h2 class="word-Skills">Skills:</h2>
+                <div class="flex-skills">
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>Java</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Skills Section End-->
+
+            <!-- Social Media Section -->
+            <div class="social_media">
+                <h2>Social Media:</h2>
+                <ol>
+                    <li><a href='https://www.instagram.com/cristiano/?hl=uk'>Instagram</a></li>
+                    <li><a href='https://www.facebook.com/zelenskyy.official/?locale=uk_UA'>facebook</a></li>
+                    <li><a href='https://github.com/mark-zuckerberg'>GitHub</a></li>
+                </ol>
+            </div>
+             <!-- Social Media Section END-->
             <table>
                 <tr id="table_row_1">   
                     <th>Degree</th>
@@ -50,27 +62,29 @@
                     <th>2000 - etc...</th>
                 </tr>
             </table>
-            <h3>Experience:</h3>
+            <h2>Experience:</h3>
             <p>Software Engeneer at Pear Company (2067-Up to the past)</p>
             <!-- DESCRIPTION SECTION END-->
 
             <!-- CONTACT ME SECTION -->
-            <h3>Contact me:</h3>
-            <form>
-                <label>Name:</label>
-                <br>
-                <input type="text" name="input_name" placeholder="Enter your name">
-                <br>
-                <label>Email:</label>
-                <br>
-                <input type="text" name="input_email" placeholder="Enter your email">
-                <br>
-                <lable>Message:</lable>
-                <br>
-                <textarea name="input_message" placeholder="Enter your message..."></textarea>
-                <br>
-                <input type="submit" value="Send">
-            </form>
+            <div class="contact_me">
+                <h3>Contact me:</h2>
+                <form class="contact_me">
+                    <label id="contact_me_text">Name:</label>
+                    <br>
+                    <input type="text" name="input_name" placeholder="Enter your name">
+                    <br>
+                    <label id="contact_me_text">Email:</label>
+                    <br>
+                    <input type="text" name="input_email" placeholder="Enter your email">
+                    <br>
+                    <lable id="contact_me_text">Message:</lable>
+                    <br>
+                    <textarea name="input_message" placeholder="Enter your message..."></textarea>
+                    <br>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
             <!-- CONTACT ME SECTION END-->
         </div>
 </html>

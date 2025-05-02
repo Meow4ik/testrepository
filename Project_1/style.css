@@ -1,4 +1,8 @@
 h1, h2, h3{
+    color: rgb(255, 255, 255);
+}
+
+h1, h2, h3{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
@@ -10,45 +14,74 @@ h1 {
 }
 
 h2{
-    text-align: left;
-    font-size: 23px;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 1px 2px 2px rgb(100, 3, 255);
 }
 
 h3{
-    text-align: left;
-    font-size: 17px;
+    text-align: center;
+    font-size: 22px;
     margin:3px 0px;
 }
 
 p {
-    text-align: left;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 18px;
+    margin: 5px 20px 40px 20px;
+}
+
+li{
+    color: rgb(255, 255, 255);
+    font-family:'Courier New', Courier, monospace;
     font-size: 15px;
-    color: rgb(61, 61, 61);
+}
+
+a{
+    color: rgb(255, 255, 255);
+    font-family:'Courier New', Courier, monospace;
+    font-size: 15px;
 }
 
 body{
-    background-image: src="3a5fd911841ee7a5afd0501035395793.jpg"
+    background-image: url("3a5fd911841ee7a5afd0501035395793.jpg");
+    background-repeat: repeat-y;
+    background-size: cover;
 }
 
 /* ------------ IMAGE SECTION ------------- */
 
 #john_doe_ph{
-    width: 350px;
-    height:350px;
+    width: 180px;
+    height:180px;
     display: block;
     margin: auto;
-    width: auto;
-    width: 28%;
-    height: 28%
-} 
+    border-radius: 100%;
+}
+/* ------------ IMAGE SECTION END------------- */
 
-img{
-    border-radius: 60%
+/* Skills Section */
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
 }
 
+li{
+    margin: 20px;
+    outline-style: dashed;
+    outline-width: 2px;
+    outline-offset: 5px;
+    outline-color:rgb(100, 3, 255)
+}   
 
 
-/* ------------ IMAGE SECTION END------------- */
+/* Skills Section End */
 
 /* ------------- TABLE SECTION ---------------- */
 table{
@@ -90,4 +123,51 @@ th{
 
 /* ------------- TABLE SECTION END   ---------------- */
 
+/* Social media */
 
+ol{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+/* Social media end */
+
+/* Contact me section */
+
+#contact_me_text{
+    color: rgb(255, 255, 255);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid 10px rgb(100, 3, 255);
+    border-style: solid;
+    margin: 0 700px;
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    margin: 5px 0px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(100, 3, 255);
+}
+
+textarea{
+    width: 300px;
+    height: 100px;
+    margin: 5px 0px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(100, 3, 255);
+}
+
+/* Contact me section end */
